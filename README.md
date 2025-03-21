@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/healthcare/assets/151519281/a7dd73b6-93de-484d-84e0-e7f4e299167b" alt="Project Banner">
-    </a>
+  <img src="https://github.com/adrianhajdin/healthcare/assets/151519281/a7dd73b6-93de-484d-84e0-e7f4e299167b" alt="Project Banner">
   <br />
 
   <div>
@@ -12,47 +10,53 @@
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
   </div>
 
-  <h3 align="center">A HealthCare Management System</h3>
+  <h3 align="center">🩺 CarePulse – A HealthCare Management System</h3>
+</div>
 
-# CarePulse
-
-CarePulse is a **next-generation healthcare management system** that integrates modern technologies like **Next.js**, **TypeScript**, **TailwindCSS**, and **Appwrite** for managing patient appointments and administrative functions. It is built to offer a seamless, efficient user experience for both patients and healthcare professionals.
-
-This repository contains the complete code for the CarePulse system, developed as a personal project to manage and streamline healthcare workflows.
-
----
-
-## **Features**
-
-- **Patient Registration:** Allows users to register and manage their profiles securely.
-- **Appointment Scheduling:** Patients can book appointments with healthcare professionals through an intuitive interface.
-- **Appointment Management:** Admins can confirm, cancel, and reschedule appointments.
-- **SMS Notifications:** Patients receive SMS notifications regarding appointment status, confirmation, and cancellations.
-- **File Upload:** Secure file uploads for patient records, managed through **Appwrite**.
-- **Responsive Design:** Optimized for all devices, including desktops, tablets, and mobile phones.
-- **Error Monitoring:** Integration with **Sentry** for real-time error tracking and app performance monitoring.
+  <p align="center">
+    A modern full-stack health management platform built with Next.js, Appwrite, and TailwindCSS. Watch the <a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank">demo video</a> to see it in action!
+  </p>
+</div>
 
 ---
 
-## **Tech Stack**
+## 📋 Features
 
-- **Frontend:**
-  - **Next.js** (React Framework)
-  - **TypeScript**
-  - **TailwindCSS** for styling
-- **Backend:**
-  - **Appwrite** for backend services (authentication, database, storage)
-  - **Twilio** for SMS notifications
-  - **Sentry** for error tracking and monitoring
+- 🧑‍⚕️ **Doctor & Patient Profiles**
+- 🗓️ **Appointment Scheduling**
+- 📁 **Medical Records Management**
+- 🔐 **Secure Authentication (via Appwrite)**
+- 💬 **Real-time Messaging & Notifications**
+- 🎯 **Modern, Responsive UI with TailwindCSS**
 
 ---
 
-## **Installation**
+## ⚙️ Tech Stack
 
-### Clone the Repository
+| Frontend      | Backend     | Styling       | Auth & DB     |
+|---------------|-------------|----------------|----------------|
+| Next.js       | Appwrite    | TailwindCSS    | Appwrite       |
+| TypeScript    | Appwrite SDK | Headless UI   | OAuth / Email  |
 
-To get started with the project, first clone the repository to your local machine:
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- Node.js (v16+)
+- Appwrite instance (cloud or self-hosted)
+- Git
+
+### 🔧 Installation
 
 ```bash
+# Clone the repo
 git clone https://github.com/abdullahk416/CarePulse.git
 cd CarePulse
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
