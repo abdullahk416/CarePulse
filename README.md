@@ -13,11 +13,6 @@
   <h3 align="center">🩺 CarePulse – A HealthCare Management System</h3>
 </div>
 
-  <p align="center">
-    A modern full-stack health management platform built with Next.js, Appwrite, and TailwindCSS. Watch the <a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank">demo video</a> to see it in action!
-  </p>
-</div>
-
 ---
 
 ## 📋 Features
@@ -33,10 +28,12 @@
 
 ## ⚙️ Tech Stack
 
-| Frontend      | Backend     | Styling       | Auth & DB     |
-|---------------|-------------|----------------|----------------|
-| Next.js       | Appwrite    | TailwindCSS    | Appwrite       |
-| TypeScript    | Appwrite SDK | Headless UI   | OAuth / Email  |
+- **Frontend Framework:** Next.js (React-based)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS, Headless UI
+- **Backend-as-a-Service:** Appwrite
+- **Authentication:** Appwrite Auth (OAuth, Email/Password)
+- **Database & Storage:** Appwrite Database, Appwrite Storage
 
 ---
 
